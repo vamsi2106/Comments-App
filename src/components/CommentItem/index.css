@@ -1,0 +1,71 @@
+* {
+  font-family: 'Roboto';
+}
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.profile-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profileBg {
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-weight: 500;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.comment-section {
+  margin-top: -15px;
+  margin-left: 35px;
+}
+.like-delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 40px;
+  background-color: transparent;
+}
+.logo {
+  height: 20px;
+}
+.Liked {
+  color: #0b69ff;
+}
+.Like {
+  color: #64748b;
+}

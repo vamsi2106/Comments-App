@@ -1,0 +1,104 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-comment {
+  margin: 10px;
+}
+.top-img {
+  width: 60vw;
+}
+h1 {
+  margin-left: 15px;
+}
+input {
+  margin-bottom: 15px;
+  width: 80%;
+  height: 40px;
+  border: 2px solid #cbd2d9;
+  padding: 12px;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+}
+textarea {
+  margin-bottom: 15px;
+  width: 80%;
+  height: 90px;
+  font-size: 14px;
+  border: 2px solid #cbd2d9;
+  padding: 12px;
+  color: black;
+  font-weight: 500;
+  border-radius: 4px;
+  outline: none;
+}
+button {
+  background-color: #0284c7;
+  height: 35px;
+  width: 120px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0px;
+}
+.comment-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.comment-count {
+  background-color: #0284c7;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  list-style: none;
+}
+@media (min-width: 768px) {
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .top-img {
+    width: 100%;
+  }
+  .img-container {
+    order: 1;
+  }
+  h1 {
+    margin-left: 250px;
+  }
+  textarea {
+    height: 120px;
+  }
+}
